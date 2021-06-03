@@ -24,10 +24,4 @@ myButton.onclick = function() {
    setUserName();
 }
 
-if(!localStorage.getItem('name')) {
-  setUserName();
-} else {
-  let storedName = localStorage.getItem('name');
-  myHeading.textContent = '欢迎你，' + storedName;
-}
 
