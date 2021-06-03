@@ -13,8 +13,11 @@ let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 function setUserName() {
   let myName = prompt('请输入你的名字。');
-  localStorage.setItem('name', myName);
-  myHeading.textContent = '欢迎你，' + myName;
+  if(!myName || myName === null) {
+    setUserName();
+  } else {
+    localStorage.setItem('name', myName);
+    myHeading.innerHTML = '欢迎你，' + myName;
 }
 
 myButton.onclick = function() {
