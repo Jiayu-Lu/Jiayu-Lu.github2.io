@@ -23,5 +23,13 @@ function setUserName() {
 myButton.onclick = function() {
    setUserName();
 }
+    
+let myName = prompt('请输入你的名字。');
+  if(!myName || myName === null) {
+    setUserName();
+  } else {
+    localStorage.setItem('name', myName);
+    myHeading.innerHTML = '欢迎你，' + myName;
+}
 
 
