@@ -18,6 +18,7 @@ function setUserName() {
   } else {
     localStorage.setItem('name', myName);
     myHeading.innerHTML = '欢迎你，' + myName;
+  }
 }
 
 myButton.onclick = function() {
