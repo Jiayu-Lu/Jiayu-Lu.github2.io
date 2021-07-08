@@ -1,0 +1,63 @@
+html {
+    font-size: 10px;
+}
+
+.index_page {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./../images/picture/background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 3000px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-top: 1px solid transparent;
+}
+
+.banner {
+    margin-top: 10rem;
+}
+
+.banner .title {
+    font-size: 8rem;
+}
+
+.banner .description {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+    
+    html {
+        font-size: 5px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+    html {
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+    html {
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+    html {
+        font-size: 20px;
+    }
+    
+}

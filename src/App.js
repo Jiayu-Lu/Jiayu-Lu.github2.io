@@ -1,6 +1,8 @@
 import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
+import Index from './pages/index';
+
 export default function App() {
   return (
     <Router>
@@ -8,7 +10,7 @@ export default function App() {
       <Switch>
 
         <Route exact path="/">
-          <div>Hello</div>
+          <Index />
         </Route>
 
         
