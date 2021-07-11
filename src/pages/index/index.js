@@ -20,6 +20,10 @@ export default class index extends Component{
                         Third year student in University of Toronto<br />
                         Specialist in Computer Science Software Engineering
                     </div>
+
+                    <a href='/aLiShow' id='aLiShow'>
+                        project
+                    </a>
                 </div>
             
             </div>

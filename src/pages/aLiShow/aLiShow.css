@@ -1,0 +1,124 @@
+.aLiShow_logo {
+    background-color: rgb(60, 165, 235);
+    background: -webkit-linear-gradient(left, rgb(112, 186, 236), rgb(0, 150, 250));
+    text-align: center;
+    font-size: 30px;
+}
+
+.aLiShow_nav {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+.aLiShow_nav a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 16px;
+    color:rgb(82, 82, 82) !important;
+}
+
+.aLiShow_nav a:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0) !important;
+}
+
+.aLiShow_nav ul li a img {
+    vertical-align: middle;
+    padding-right: 5px;
+    
+}
+
+.aLiShow_news li {
+    float: left;
+    width: 25%;
+    min-height: 128px;
+    padding-right: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.aLiShow_news li a {
+    display: block;
+    position: relative;
+}
+
+.aLiShow_news li a img{
+    width: 100%;
+    height: 100%;
+}
+
+.aLiShow_news li a p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    z-index: 1;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.aLiShow_news li:nth-child(1) {
+    min-height: 10rem;
+    width: 50%;
+}
+
+.aLiShow_news li:nth-child(1) p {
+    font-size: 3rem;
+    padding: 2px 15px;
+}
+
+.aLiShow_publish {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.aLiShow_pic img {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.aLiShow_publish .row {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 5px;
+}
+
+.aLiShow_hot {
+    display: block;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.aLiShow_hot h4 {
+    color:rgb(88, 153, 196);
+}
+
+.aLiShow_hot:hover {
+    color:rgb(88, 153, 196) !important;
+}
+
+.aLiShow_banner_title{
+    display: block;
+    background-color: rgb(60, 165, 235);
+    background: -webkit-linear-gradient(left, rgb(112, 186, 236), rgb(0, 150, 250));
+    text-align: center;
+}
+
+.aLiShow_banner button {
+    display: block;
+    margin: 10px auto;
+}
+
+@media screen and (max-width: 800px) {
+    .aLiShow_nav li {
+        float: left;
+        width: 20%;
+    }
+    .aLiShow_nav li a {
+        font-size: 7px;
+        padding-left: 2px;
+    }
+}
