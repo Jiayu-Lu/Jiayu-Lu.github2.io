@@ -21,7 +21,7 @@ export default class index extends Component{
                         Specialist in Computer Science Software Engineering
                     </div>
 
-                    <a href='/aLiShow' id='aLiShow'>
+                    <a href='/#/aLiShow' id='aLiShow'>
                         project
                     </a>
                 </div>

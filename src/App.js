@@ -1,27 +1,22 @@
 import './App.css';
-import {BrowserRouter as Router, Route, Switch, HashRouter} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 
 import Index from './pages/index/index';
 import ALiShow from './pages/aLiShow/aLiShow';
 
 export default function App() {
   return (
-    <Router>
+    <div>
  
-      <Switch>
 
-        <HashRouter basename="/">
-          <Index />
-        </HashRouter>
+        <Route path="/aLiShow" component={ALiShow} />
 
-        <HashRouter basename="/aLiShow">
-          <ALiShow />
-        </HashRouter>
+
+        <Route exact path="/" component={Index} />
 
         
-      </Switch>
  
-    </Router>
+    </div>
     
   );
 }
