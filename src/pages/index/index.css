@@ -1,32 +1,18 @@
 .index_page {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url(../../images/picture/background.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 3000px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    border-top: 1px solid transparent;
+    height: 2000px;
+    padding-top: 6vh;
 }
 
-.banner {
-    margin-top: 10rem;
+.index_navbar_text {
+    color: #292b2c !important;
 }
 
-.banner .title {
-    font-size: 8rem;
+.index_navbar_text:hover {
+    color: #7d8385 !important;
 }
 
-.banner .description {
-    font-size: 1.5rem;
-}
-
-#aLiShow {
-    color: white !important;
-    border: 1px solid #ccc;
+.index_page_banner {
+    background-color: #292b2c;
+    color: #eee;
+    min-height: 50vh;
 }

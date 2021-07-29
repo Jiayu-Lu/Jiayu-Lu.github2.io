@@ -1,0 +1,134 @@
+.index_page {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../../images/picture/background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 3000px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-top: 1px solid transparent;
+    color: white;
+}
+
+.banner {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.banner .title {
+    font-size: 8rem;
+}
+
+.banner .description {
+    font-size: 1.5rem;
+}
+
+#aLiShow {
+    color: blue !important;
+    text-decoration: underline !important;
+}
+
+.index_nav div {
+    cursor: pointer;
+}
+
+.index_nav div a{
+    color: white !important;
+}
+
+.index_nav div:hover{
+    background-color: rgba(233, 233, 233, 0.5);
+}
+
+.project,
+.portfolio,
+.github,
+.contact {
+    display: block;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    min-height: 200px;
+    margin-right: 10px;
+}
+
+.project a,
+.portfolio a,
+.github a,
+.contact a{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.portfolio a img,
+.github a img,
+.contact a img {
+    width: 80%;
+}
+
+.project a img {
+    width: 70%;
+}
+
+.project_banner {
+    margin-top: 150px;
+}
+
+.project_banner>p{
+    margin-bottom: 80px;
+    font-size: 2rem;
+}
+
+.project_exam {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border: 1px solid #eee;
+    padding: 20px 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: rgba(150, 150, 150, 0.5);
+}
+
+.project_exam img {
+    width: 100%;
+}
+
+.index_contact {
+    margin: 100px auto;
+    width: 30%;
+    font-size: 1rem;
+}
+
+.index_contact img{
+    width: 200%;
+    position: relative;
+    top: -30px;
+    left: -100px;
+}
+
+.index_contact_component {
+    display: grid;
+    grid-template-columns: 10% 20% 70%;
+}
+
+.index_contact p {
+    font-size: 2rem;
+    margin-bottom: 100px;
+}
+
+#todo_link {
+    color: white !important;
+    background-color: aqua;
+    border-radius: 10px;
+    display: block;
+    margin: 5vh auto;
+    width: 10vw;
+
+}
